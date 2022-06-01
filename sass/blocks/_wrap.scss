@@ -1,0 +1,22 @@
+.wrap__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap__item {
+    display: flex;
+}
+@media only screen and (max-width:576px){
+    .wrap__list {
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    .wrap__item {
+        display: inline;
+    }
+}

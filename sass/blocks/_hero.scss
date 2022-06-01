@@ -1,0 +1,119 @@
+.hero__inner {
+    padding: 160px 0;
+}
+
+
+.hero__title {
+    margin-bottom: 80px;
+    font-family: 'Fraunces 9pt Soft';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #A7AAAD;
+}
+
+.hero__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.hero__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 30px;
+    max-width: 350px;
+    width: 100%;
+    text-align: center;
+    
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.hero__img {
+    margin-bottom: 58px;
+}
+
+.hero__text {
+    margin-top: 0;
+    margin-bottom: 70px;
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.128571px;
+    color: #5B636D;
+    
+}
+
+.box__title {
+    margin: 0 0 9px 0;
+    font-family: 'Fraunces 9pt Soft';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.128571px;
+    color: #24303E;
+}
+
+.box__text {
+    margin: 0;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #A7AAAD;
+}
+
+
+@media only screen and (max-width:576px) {
+    .hero__inner {
+        padding: 64px 0;
+    }
+    
+    .hero__title {
+        margin-bottom: 64px;
+        font-family: 'Fraunces 9pt Soft';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 4px;
+    }
+    
+    .hero__list {
+        flex-direction: column;
+    }
+    
+    .hero__item {
+        margin-right: 0;
+        margin-bottom: 64px;
+        
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    
+    .hero__img {
+        margin-bottom: 32px;
+    }
+    
+    .hero__text {
+        margin-bottom: 32px;
+    }
+}
